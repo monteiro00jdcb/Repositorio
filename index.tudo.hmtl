@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagem/avatar.jpg" alt="avatar da Eduarda" width="150" height="150">
+        <p>Eu sou Eduarda</p>
+        <h1>Eu sou formada em nutrição</h1>
+        <p>Sou nutricionista formada com especialização em nutrição materno-infantil. Meu objetivo como profissional é orientar gestantes, lactantes e famílias na construção de hábitos alimentares saudáveis, afetivos e sustentáveis. Sou uma profissional comprometida, empática e sempre atualizada com as últimas pesquisas e diretrizes nutricionais. Acredito no poder da informação acessível e no acolhimento como parte essencial do cuidado nutricional.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p>Planejamento nutricional para gestantes, lactantes e crianças</p>
+            <p>Aconselhamento sobre nutrição</p>
+            <p>Elaboração de cardápios equilibrados e personalizados</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagem/projeto-1.jpg" class="card-img-top" alt="Imagem do plano alimentar para gestantes">
+                    <div class="card-body">
+                        <h5 class="card-title">Plano Alimentar para Gestantes</h5>
+                        <p class="card-text">Elaboração de planos alimentares personalizados para gestantes, com foco no fornecimento dos nutrientes necessários para o desenvolvimento saudável do bebê e bem-estar da mãe.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagem/projeto-2.jpg" class="card-img-top" alt="Imagem da introdução alimentar para bebês">
+                    <div class="card-body">
+                        <h5 class="card-title">Introdução Alimentar para Bebês</h5>
+                        <p class="card-text">Criação de um plano alimentar para bebês, com foco na introdução gradual de alimentos sólidos a partir dos 6 meses, promovendo uma alimentação saudável e segura.</p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagem/projeto-3.jpg" class="card-img-top" alt="Imagem do acompanhamento nutricional infantil">
+                    <div class="card-body">
+                        <h5 class="card-title">Acompanhamento Nutricional Infantil</h5>
+                        <p class="card-text">Acompanhamento nutricional de crianças, com foco no desenvolvimento saudável, controle de peso e prevenção de doenças nutricionais.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 - Plano Alimentar para Gestantes -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Plano Alimentar para Gestantes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto envolve a criação de um plano alimentar individualizado para gestantes, focado em suprir as necessidades nutricionais durante a gestação. O cardápio é elaborado levando em consideração a saúde da mãe e o crescimento adequado do bebê.</p>
+                    <p>Foram utilizados alimentos ricos em ácido fólico, ferro, cálcio e outros nutrientes essenciais para o desenvolvimento fetal e para o bem-estar da gestante.</p>
+                    <img src="imagem/projeto-1.jpg" class="img-fluid w-100" alt="Imagem representativa do projeto de plano alimentar para gestantes">
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 - Introdução Alimentar para Bebês -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Introdução Alimentar para Bebês</h5>
+                    
+                </div>
+                <div class="modal-body">
+                    <p>O projeto de introdução alimentar foi desenvolvido para orientar pais e responsáveis sobre como oferecer alimentos sólidos de forma gradual e segura para bebês a partir dos 6 meses.</p>
+                    <p>Foram elaborados cardápios com purês de frutas, legumes e papas, além de orientações sobre os alimentos a evitar, como mel e alimentos que podem causar engasgos.</p>
+                    <img src="imagem/projeto-2.jpg" class="img-fluid w-100" alt="Imagem representativa do projeto de introdução alimentar para bebês">
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 - Acompanhamento Nutricional Infantil -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Acompanhamento Nutricional Infantil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto de acompanhamento nutricional infantil tem como objetivo avaliar o estado nutricional de crianças, ajustando sua alimentação de acordo com o crescimento e as necessidades específicas de cada fase da infância.</p>
+                    <p>Através de consultas periódicas, os pais recebem orientações sobre como melhorar a dieta da criança, promovendo uma alimentação balanceada e a prevenção de doenças nutricionais.</p>
+                    <img src="imagem/projeto-3.jpg" class="img-fluid w-100" alt="Imagem representativa do projeto de acompanhamento nutricional infantil">
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/eduardanutri">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Eduarda</p>
+    </footer>
+
+</body>
+</html>
