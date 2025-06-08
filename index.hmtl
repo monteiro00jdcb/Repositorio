@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+<body>
+    <img src="imagem/avatar.jpg" alt="avatar da Eduarda" srcset="">
+    <p>Eu sou Eduarda</p>
+    <h1>Eu sou formada em nutrição</h1>
+    <p>Sou nutricionista formada com especialização em nutrição materno-infantil. Meu objetivo como profissional é orientar gestantes, lactantes e famílias na construção de hábitos
+ alimentares saudáveis, afetivos e sustentáveis.Sou uma profissional comprometida, empática e sempre atualizada com as últimas pesquisas e diretrizes nutricionais. 
+ Acredito no poder da informação acessível e no acolhimento como parte essencial do cuidado nutricional. </p>
+    <p>Minhas habilidades</p>
+    <div>
+            <p>Planejamento nutricional para gestantes, lactantes e crianças<p>
+            <p>Aconselhamento sobre nurição</p>
+            <p>Elaboração de cardápios equilibrados e personalizados</p>
+      </div>
+    </header>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+    </main>
+   
+</body>
+
+</html>
+
+
